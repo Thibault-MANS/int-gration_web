@@ -1,23 +1,62 @@
+/*
+    CSS classe générales
+*/
 body {
     position: relative;
+}
+.rel {
+    position: relative;
+}
+.absol {
+    position: absolute;
+}
+.flux-right {
+    right: 0;
+}
+.flux-bottom {
+    bottom: 0;
 }
 .flex {
     display: flex;
 }
-.axe-y-center {
+.btw {
+    justify-content: center;
+}
+.y-center {
     align-items: center;
 }
-.axe-x-center {
+.x-center {
     justify-content: center;
 }
 .column {
     flex-direction: column;
 }
-.m-0-a {
+.m-center {
     margin: 0 auto;
 }
-.m-20-0 {
-    margin: 15px 0;
+.m-sml-x {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.m-sml-y {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.m-mdl-x {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.m-mdl-y {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.m-lg-x {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.m-lg-y {
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 .segment {
     padding: 160px 0;
@@ -34,7 +73,7 @@ body {
 .col2 {
     width: 100%;
 }
-.fit {
+.content-size-page {
     width: 90%;
 }
 .element-space {
@@ -55,34 +94,21 @@ footer {
 .nav-link-container {
     justify-content: center;
 }
-.nav-link {
-    margin: 15px 40px;
-}
+
 .hero-container img{
     object-position: center;
     height: 70vh;
     width: 100%;
     overflow: hidden;
 }
-.decouvert-content-container {
-    align-items: center;
-    position: relative;
-}
 .btn-area {
     position: absolute;
     bottom: 0;
     right: 0;
 }
-.btn-container {
+.btn-container-article {
     justify-content: end;
     align-items: flex-end;
-}
-.btn {
-    font-family: var(--font-text);
-    font-size: 14px;
-}
-.secondary-btn {
-    color: inherit;
 }
 .article-p {
     padding-bottom: 40px;
@@ -92,9 +118,6 @@ footer {
 }
 .planning-content p {
     padding-bottom: 0;
-}
-.bord-bot {
-    border-bottom: 1px solid #b3b3b3;
 }
 .horaire-content h2 {
     margin-left: 10%;
@@ -116,3 +139,5 @@ footer .secondary-btn {
 footer form {
     margin-top: 40px;
 }
+
+

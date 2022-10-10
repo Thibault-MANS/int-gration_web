@@ -14,57 +14,65 @@
 
     <!--Typo-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Lora:wght@500;700&family=Quattrocento:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Lora:wght@500;700&family=Quattrocento:wght@400;700&display=swap" rel="stylesheet"> 
 
 </head>
 <body>
-    <header class="header-container bg-black c-white flex axe-y-center column">
-        <div class="title-container fit">
-            <h1 class="h1">Musée</h1>
-        </div>
-        
-        <nav class="nav-container fit">
-            <div class="nav-link-container flex">
-                <a href="#" class="nav-link">découvrir</a>
-                <a href="#" class="nav-link">visiter</a>
-                <a href="#" class="nav-link">horaires</a>
+    <header class="header-area bg-black c-white flex y-center x-center">
+        <div class="header-container content-size-page">
+            <div class="header-container-top flex y-center x-center bord-bot rel">
+                <div class="title-container">
+                    <h1 class="h1">Musée</h1>
+                </div>
+                <div class="btn-container absol flux-right">
+                    <button class="btn primary-btn">Billetterie</button>
+                </div>
             </div>
-        </nav>
+            <nav class="nav-container flex y-center x-center">
+                <div class="nav-link-container flex">
+                    <a href="#" class="nav-link m-sml-y m-mdl-x">découvrir</a>
+                    <a href="#" class="nav-link m-sml-y m-mdl-x">visiter</a>
+                    <a href="#" class="nav-link m-sml-y m-mdl-x">horaires</a>
+                </div>
+            </nav>
+        </div>
     </header>
-    <article class="hero bg-black c-white">
+    <section class="hero bg-black c-white">
         <div class="hero-container">
             <img src="ressources/hero-img.jpg" alt="">
         </div>
-    </article>
-    <article class="segment decouvert bg-black c-white">
-        <section class="decouvert-container fit flex m-0-a">
-            <div class="decouvert-content-container flex col2">
-                <div class="decouvert-content left-content" >
-                    <h2 class="h2">a découvrir</h2>
-                    <div class="article-p">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos doloribus nihil accusantium exercitationem minima vero obcaecati quisquam maiores soluta magnam at alias veniam voluptas neque qui non ipsam, accusamus animi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, earum quibusdam ipsum assumenda mollitia reiciendis molestiae reprehenderit ullam odio deleniti impedit magni quam quae illum vero minima aut ratione consequuntur?</p>
+    </section>
+    <section class="segment decouvert bg-black c-white flex x-center y-center">
+        <article class="decouvert-container content-size-page flex x-center ">
+            <div class="decouvert-content-container flex x-center">
+                <div class="decouvert-content col1 flex x-center y-center rel">
+                    <div class="left-content">
+                        <h2 class="h2 m-mdl-x ">a découvrir</h2>
+                        <div class="article-p">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos doloribus nihil accusantium exercitationem minima vero obcaecati quisquam maiores soluta magnam at alias veniam voluptas neque qui non ipsam, accusamus animi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, earum quibusdam ipsum assumenda mollitia reiciendis molestiae reprehenderit ullam odio deleniti impedit magni quam quae illum vero minima aut ratione consequuntur?</p>
+                        </div>
+                    </div>
+                    <div class="btn-area">
+                        <div class="btn-container-article flex">
+                            <button class="btn secondary-btn left-content"><a href="#">En savoir plus <span>→</span></a></button>
+                        </div>
                     </div>
                 </div>
-                <div class="btn-area ">
-                    <div class="btn-container flex">
-                        <button class="btn secondary-btn left-content"><a href="#">En savoir plus <span>→</span></a></button>
+                    <div class="decouvert-container-img col1">
+                        <img src="ressources/test-1.jpg" alt="">
                     </div>
                 </div>
-            </div>
-            <div class="decouvert-container-img col2">
-                <img src="ressources/decouvert-img.jpg" alt="">
-            </div>
-        </section>
-    </article>
-    <article class="segment visiter bg-white c-black">
-        <section class="visiter-area fit m-0-a element-space">
+        </article>
+    </section>
+    <section class="segment visiter bg-white c-black">
+        <article class="visiter-area content-size-page m-center element-space">
             <h2 class="col2 h2">A visiter</h2>
-            <div class="renaissance-content-container flex m-0-a col2">
+            <div class="renaissance-content-container flex m-center col2">
                 <div class="visiter-container-img col2">
-                    <img src="ressources/renaissance-img.jpg" alt="" class="full">
+                    <img src="ressources/decouvert-img.jpg" alt="" class="full">
                 </div>
-                <div class="renaissance-content-area right-content col2 flex axe-y-center">
+                <div class="renaissance-content-area right-content col2 flex y-center">
                     <div class="renaissance-content">
                         <h3 class="h3">L'ère de la renaissance</h3>
                         <div class="article-p">
@@ -75,10 +83,10 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="moderne-area fit m-0-a">
-            <div class="moderne-content-container flex m-0-a col2">
-                <div class="moderne-content-area left-content col2 flex axe-y-center">
+        </article>
+        <article class="moderne-area content-size-page m-center">
+            <div class="moderne-content-container flex m-center col2">
+                <div class="moderne-content-area left-content col2 flex y-center">
                     <div class="moderne-content">
                         <h3 class="h3">Le modernisme</h3>
                         <div class="article-p">
@@ -92,34 +100,34 @@
                     <img src="ressources/modernisme-img.jpg" alt="">
                 </div>
             </div>
-        </section>
-    </article>
+        </article>
+    </section>
     <div class="flex bg-white">
-        <div class="line fit m-0-a"></div>
+        <div class="line content-size-page m-center"></div>
     </div>
-    <article class="segment bg-white c-black">
-        <div class="horaires-area fit flex m-0-a">
-            <div class="horaire-container-img fit">
+    <section class="segment bg-white c-black">
+        <div class="horaires-area content-size-page flex m-center">
+            <div class="horaire-container-img content-size-page">
                 <img src="ressources/horaires-img.jpg" alt="" >
             </div>
-            <div class="horaire-content-container col2 flex axe-y-center axe-x-center">
+            <div class="horaire-content-container col2 flex y-center x-center">
                 <div class="horaire-content col2">
                     <h2 class="h2">horaires</h2>
-                    <div class="planning-area flex axe-y-center axe-x-center column right-content">
-                        <div class="planning-container fit flex axe-y-center axe-x-center bord-bot">
-                            <div class="planning-content flex axe-y-center axe-x-center column m-20-0">
+                    <div class="planning-area flex y-center x-center column right-content">
+                        <div class="planning-container content-size-page flex y-center x-center bord-bot">
+                            <div class="planning-content flex y-center x-center column m-sml-y">
                                 <p class="day">Lundi, Mercredi, jeudi, vendredi</p>
                                 <p class="hours">9h - 18h</p>
                             </div>
                         </div>
-                        <div class="planning-container fit flex axe-y-center axe-x-center bord-bot">
-                            <div class="planning-content flex axe-y-center axe-x-center column m-20-0">
+                        <div class="planning-container content-size-page flex y-center x-center bord-bot">
+                            <div class="planning-content flex y-center x-center column m-sml-y">
                                 <p class="day">Samedi</p>
                                 <p class="hours">8h - 20h</p>
                             </div>
                         </div>
-                        <div class="planning-container fit flex axe-y-center axe-x-center">
-                            <div class="planning-content flex axe-y-center axe-x-center column m-20-0">
+                        <div class="planning-container content-size-page flex y-center x-center">
+                            <div class="planning-content flex y-center x-center column m-sml-y">
                                 <p class="day">Mardi</p>
                                 <p class="hours">Fermé</p>
                             </div>
@@ -128,27 +136,27 @@
                 </div>
             </div>
         </div>
-    </article>
+    </section>
     <footer>
-        <div class="footer-area fit flex m-0-a">
-            <div class="newsletter-container fit">
+        <div class="footer-area content-size-page flex m-center">
+            <div class="newsletter-container content-size-page">
                 <div class="newsletter-content flex">
                     <h4 class="h4">Newsletter</h4>
-                    <div class="col2 flex axe-y-center axe-x-center">
-                        <div class="line fit"></div>
+                    <div class="col2 flex y-center x-center">
+                        <div class="line content-size-page"></div>
                     </div>
                 </div>
-                <div class="newsletter-button secondary-btn col2  m-20-0">En savoir plus →</div>
+                <div class="newsletter-button secondary-btn col2  m-sml">En savoir plus →</div>
                 <form action="" class="col2">
-                    <div class="form-block m-20-0">
+                    <div class="form-block m-sml">
                         <label for="">Noms :</label>
                         <input type="text" class="col1">
                     </div>
-                    <div class="form-block m-20-0">
+                    <div class="form-block m-sml">
                         <label for="">Prénoms :</label>
                         <input type="text" class="col1">
                     </div>
-                    <div class="form-block m-20-0">
+                    <div class="form-block m-sml">
                         <label for="">Mail :</label>
                         <input type="email" class="col1">
                     </div>
@@ -158,5 +166,6 @@
             <div class="information-container col2"></div>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
