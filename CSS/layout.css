@@ -1,0 +1,118 @@
+body {
+    position: relative;
+}
+.flex {
+    display: flex;
+}
+.axe-y-center {
+    align-items: center;
+}
+.axe-x-center {
+    justify-content: center;
+}
+.column {
+    flex-direction: column;
+}
+.m-0-a {
+    margin: 0 auto;
+}
+.m-20-0 {
+    margin: 15px 0;
+}
+.segment {
+    padding: 160px 0;
+}
+.left-content {
+    margin-right: 75px;
+}
+.right-content {
+    margin-left: 75px;
+}
+.col1 {
+    width: 50%;
+}
+.col2 {
+    width: 100%;
+}
+.fit {
+    width: 90%;
+}
+.element-space {
+    margin-bottom: 70px;
+}
+footer {
+    margin: 70px 0;
+}
+.header-container {
+    position: sticky;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+.title-container {
+    padding: 10px 0;
+}
+.nav-link-container {
+    justify-content: center;
+}
+.nav-link {
+    margin: 15px 40px;
+}
+.hero-container img{
+    object-position: center;
+    height: 70vh;
+    width: 100%;
+    overflow: hidden;
+}
+.decouvert-content-container {
+    align-items: center;
+    position: relative;
+}
+.btn-area {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.btn-container {
+    justify-content: end;
+    align-items: flex-end;
+}
+.btn {
+    font-family: var(--font-text);
+    font-size: 14px;
+}
+.secondary-btn {
+    color: inherit;
+}
+.article-p {
+    padding-bottom: 40px;
+}
+.line {
+    height: 1px;
+}
+.planning-content p {
+    padding-bottom: 0;
+}
+.bord-bot {
+    border-bottom: 1px solid #b3b3b3;
+}
+.horaire-content h2 {
+    margin-left: 10%;
+}
+.primary-btn {
+    padding: 8px 32px;
+}
+footer input {
+    margin-top: 10px;
+    padding: 5px;
+}
+footer .primary-btn {
+    margin-top: 40px;
+    width: 33%;
+}
+footer .secondary-btn {
+    margin-top: 15px;
+}
+footer form {
+    margin-top: 40px;
+}

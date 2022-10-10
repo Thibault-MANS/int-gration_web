@@ -1,0 +1,84 @@
+:root {
+    --font-title : 'Cinzel', serif;
+    --font-subtitle : 'Lora', serif;
+    --font-text : 'Quattrocento', serif;
+    --main-background-color : #171313;
+    --second-background-color : #fff;
+    --third-background-color : #b3b3b3;
+    --cta-color : #76E2A9;
+}
+body {
+    background-color: var(--main-background-color);
+    color: var(--second-background-color);
+}
+.h1 {
+    text-align: center;
+    font-family: var(--font-title);
+    font-size: 72px;
+}
+.h2 {
+    text-transform: uppercase;
+    font-family: var(--font-subtitle);
+    font-size: 54px;
+    margin-left: 30px;
+    margin-bottom: 60px;
+    font-weight: 100;
+}
+.h3 {
+    font-size: 40px;
+    font-family: var(--font-subtitle);
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+.h4 {
+    font-family: var(--font-title);
+    font-size: 28px;
+    font-weight: 400;
+}
+p {
+    font-size: 18px;
+    font-family: var(--font-text);
+
+    color: inherit;
+}
+.title-container {
+    border-bottom: 1px solid var(--third-background-color);
+}
+.nav-link {
+    font-family: var(--font-subtitle);
+    font-size: 24px;
+}
+.primary-btn {
+    background-color: var(--cta-color);
+    border-radius: 15px;
+    font-weight: 600;
+}
+.secondary-btn {
+    color: var(--cta-color);
+    font-weight: 600;
+}
+.btn span {
+    font-size: 18px;
+}
+.bg-black {
+    background-color: var(--main-background-color);
+}
+.bg-white {
+    background-color: var(--second-background-color);
+}
+.c-black {
+    color: var(--main-background-color);
+}
+.c-white {
+    color: var(--second-background-color);
+}
+.visiter h2 {
+    color: var(--main-background-color);
+}
+.line {
+    background-color: var(--third-background-color);
+}
+.hours {
+    font-family: var(--font-subtitle);
+    font-weight: 600;
+}

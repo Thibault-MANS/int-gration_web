@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intégration web</title>
+
+    <!--link CSS-->
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/module.css">
+    <link rel="stylesheet" href="CSS/layout.css">
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!--Typo-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Lora:wght@500;700&family=Quattrocento:wght@400;700&display=swap" rel="stylesheet"> 
+
+</head>
+<body>
+    <header class="header-container bg-black c-white flex axe-y-center column">
+        <div class="title-container fit">
+            <h1 class="h1">Musée</h1>
+        </div>
+        <nav class="nav-container fit">
+            <div class="nav-link-container flex">
+                <a href="#" class="nav-link">découvrir</a>
+                <a href="#" class="nav-link">visiter</a>
+                <a href="#" class="nav-link">horaires</a>
+            </div>
+        </nav>
+    </header>
+    <article class="hero bg-black c-white">
+        <div class="hero-container">
+            <img src="ressources/hero-img.jpg" alt="">
+        </div>
+    </article>
+    <article class="segment decouvert bg-black c-white">
+        <section class="decouvert-container fit flex m-0-a">
+            <div class="decouvert-content-container flex col2">
+                <div class="decouvert-content left-content" >
+                    <h2 class="h2">a découvrir</h2>
+                    <div class="article-p">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos doloribus nihil accusantium exercitationem minima vero obcaecati quisquam maiores soluta magnam at alias veniam voluptas neque qui non ipsam, accusamus animi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, earum quibusdam ipsum assumenda mollitia reiciendis molestiae reprehenderit ullam odio deleniti impedit magni quam quae illum vero minima aut ratione consequuntur?</p>
+                    </div>
+                </div>
+                <div class="btn-area ">
+                    <div class="btn-container flex">
+                        <button class="btn secondary-btn left-content"><a href="#">En savoir plus <span>→</span></a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="decouvert-container-img col2">
+                <img src="ressources/decouvert-img.jpg" alt="">
+            </div>
+        </section>
+    </article>
+    <article class="segment visiter bg-white c-black">
+        <section class="visiter-area fit m-0-a element-space">
+            <h2 class="col2 h2">A visiter</h2>
+            <div class="renaissance-content-container flex m-0-a col2">
+                <div class="visiter-container-img col2">
+                    <img src="ressources/renaissance-img.jpg" alt="" class="full">
+                </div>
+                <div class="renaissance-content-area right-content col2 flex axe-y-center">
+                    <div class="renaissance-content">
+                        <h3 class="h3">L'ère de la renaissance</h3>
+                        <div class="article-p">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet sunt in harum, iure ab porro eos perspiciatis quasi nesciunt repellat vitae omnis itaque nisi maxime et aspernatur dicta ea illum!
+                            Eveniet incidunt earum id neque, obcaecati dolorem sunt explicabo officiis minus. Nemo itaque unde sint voluptate sit placeat totam, dolorem libero sed obcaecati iure ullam saepe repudiandae, voluptatem iusto ad!
+                            Molestiae harum repellat explicabo modi architecto perspiciatis optio, vel veritatis placeat reprehenderit neque nisi soluta nesciunt assumenda voluptatibus tempora a quidem ipsam dicta. Eos quos nihil harum vel rem in!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="moderne-area fit m-0-a">
+            <div class="moderne-content-container flex m-0-a col2">
+                <div class="moderne-content-area left-content col2 flex axe-y-center">
+                    <div class="moderne-content">
+                        <h3 class="h3">Le modernisme</h3>
+                        <div class="article-p">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet sunt in harum, iure ab porro eos perspiciatis quasi nesciunt repellat vitae omnis itaque nisi maxime et aspernatur dicta ea illum!
+                            Eveniet incidunt earum id neque, obcaecati dolorem sunt explicabo officiis minus. Nemo itaque unde sint voluptate sit placeat totam, dolorem libero sed obcaecati iure ullam saepe repudiandae, voluptatem iusto ad!
+                            Molestiae harum repellat explicabo modi architecto perspiciatis optio, vel veritatis placeat reprehenderit neque nisi soluta nesciunt assumenda voluptatibus tempora a quidem ipsam dicta. Eos quos nihil harum vel rem in!</p>
+                        </div>                    
+                    </div>
+                </div>
+                <div class="visiter-container-img col2">
+                    <img src="ressources/modernisme-img.jpg" alt="">
+                </div>
+            </div>
+        </section>
+    </article>
+    <div class="flex bg-white">
+        <div class="line fit m-0-a"></div>
+    </div>
+    <article class="segment bg-white c-black">
+        <div class="horaires-area fit flex m-0-a">
+            <div class="horaire-container-img fit">
+                <img src="ressources/horaires-img.jpg" alt="" >
+            </div>
+            <div class="horaire-content-container col2 flex axe-y-center axe-x-center">
+                <div class="horaire-content col2">
+                    <h2 class="h2">horaires</h2>
+                    <div class="planning-area flex axe-y-center axe-x-center column right-content">
+                        <div class="planning-container fit flex axe-y-center axe-x-center bord-bot">
+                            <div class="planning-content flex axe-y-center axe-x-center column m-20-0">
+                                <p class="day">Lundi, Mercredi, jeudi, vendredi</p>
+                                <p class="hours">9h - 18h</p>
+                            </div>
+                        </div>
+                        <div class="planning-container fit flex axe-y-center axe-x-center bord-bot">
+                            <div class="planning-content flex axe-y-center axe-x-center column m-20-0">
+                                <p class="day">Samedi</p>
+                                <p class="hours">8h - 20h</p>
+                            </div>
+                        </div>
+                        <div class="planning-container fit flex axe-y-center axe-x-center">
+                            <div class="planning-content flex axe-y-center axe-x-center column m-20-0">
+                                <p class="day">Mardi</p>
+                                <p class="hours">Fermé</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+    <footer>
+        <div class="footer-area fit flex m-0-a">
+            <div class="newsletter-container fit">
+                <div class="newsletter-content flex">
+                    <h4 class="h4">Newsletter</h4>
+                    <div class="col2 flex axe-y-center axe-x-center">
+                        <div class="line fit"></div>
+                    </div>
+                </div>
+                <div class="newsletter-button secondary-btn col2  m-20-0">En savoir plus →</div>
+                <form action="" class="col2">
+                    <div class="form-block m-20-0">
+                        <label for="">Noms :</label>
+                        <input type="text" class="col1">
+                    </div>
+                    <div class="form-block m-20-0">
+                        <label for="">Prénoms :</label>
+                        <input type="text" class="col1">
+                    </div>
+                    <div class="form-block m-20-0">
+                        <label for="">Mail :</label>
+                        <input type="email" class="col1">
+                    </div>
+                    <button class="btn primary-btn">Inscription</button>
+                </form>
+            </div>
+            <div class="information-container col2"></div>
+        </div>
+    </footer>
+</body>
+</html>
