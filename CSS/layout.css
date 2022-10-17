@@ -16,11 +16,17 @@ body {
 .flux-bottom {
     bottom: 0;
 }
+.disp-block {
+    display: block;
+}
 .flex {
     display: flex;
 }
 .btw {
     justify-content: center;
+}
+.btw-sbtw {
+    justify-content: space-between;
 }
 .y-center {
     align-items: center;
@@ -58,8 +64,23 @@ body {
     margin-top: 70px;
     margin-bottom: 70px;
 }
+.mb-30 {
+    margin-bottom: 30px;
+}
+.mt-50 {
+    margin-top: 50px;
+}
+.pt-50 {
+    padding-top: 50px;
+}
+.white-space {
+    white-space: nowrap;
+}
 .segment {
     padding: 160px 0;
+}
+.segment-small {
+    padding: 60px 0;
 }
 .left-content {
     margin-right: 75px;
@@ -94,7 +115,9 @@ body {
 .nav-link-container {
     justify-content: center;
 }
-
+.text-align-center {
+    text-align: center;
+}
 .hero-container img{
     object-position: center;
     height: 70vh;

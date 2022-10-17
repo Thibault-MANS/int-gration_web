@@ -24,6 +24,7 @@ body {
     font-family: var(--font-subtitle);
     font-size: 54px;
     font-weight: 100;
+    margin-bottom: 50px;
 }
 .h3 {
     font-size: 40px;
@@ -85,4 +86,13 @@ p {
 .hours {
     font-family: var(--font-subtitle);
     font-weight: 600;
+}
+.socials {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white; /*Dev*/
+}
+.legal-notice {
+    border-top: 1px solid white;
 }
